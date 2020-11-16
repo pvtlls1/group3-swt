@@ -1,0 +1,403 @@
+{
+  "id": "88118812-a8f6-40ba-aa16-b215e847ec50",
+  "version": "2.0",
+  "name": "test nhac cua tui",
+  "url": "https://shopee.vn/buyer/login?from=https%3A%2F%2Fshopee.vn%2Fuser%2Faccount%2Fpassword&next=https%3A%2F%2Fshopee.vn%2Fuser%2Faccount%2Fpassword",
+  "tests": [{
+    "id": "96a70a69-b2af-4459-8925-711a31d11a03",
+    "name": "user and passs true",
+    "commands": [{
+      "id": "8b8b7ad9-06a8-44c2-bbfa-88ab27468bb7",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.nhaccuatui.com/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4792ec5c-2072-4ee3-9870-8edd2d66bf38",
+      "comment": "",
+      "command": "click",
+      "target": "id=btnShowBoxLogin",
+      "targets": [
+        ["id=btnShowBoxLogin", "id"],
+        ["linkText=Đăng nhập", "linkText"],
+        ["css=#btnShowBoxLogin", "css:finder"],
+        ["xpath=//a[contains(text(),'Đăng nhập')]", "xpath:link"],
+        ["xpath=//a[@id='btnShowBoxLogin']", "xpath:attributes"],
+        ["xpath=//div[@id='user_control']/ul/li/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'javascript:;')])[3]", "xpath:href"],
+        ["xpath=//div[2]/ul/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Đăng nhập')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "1743e399-d0f1-4887-813a-3f6953f8173e",
+      "comment": "",
+      "command": "click",
+      "target": "id=uname",
+      "targets": [
+        ["id=uname", "id"],
+        ["name=uname", "name"],
+        ["css=#uname", "css:finder"],
+        ["xpath=//input[@id='uname']", "xpath:attributes"],
+        ["xpath=//form[@id='_frmLogin']/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "36463f30-19d6-449a-bc9d-519dce6f388d",
+      "comment": "",
+      "command": "type",
+      "target": "id=uname",
+      "targets": [
+        ["id=uname", "id"],
+        ["name=uname", "name"],
+        ["css=#uname", "css:finder"],
+        ["xpath=//input[@id='uname']", "xpath:attributes"],
+        ["xpath=//form[@id='_frmLogin']/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "thangpvhe130185"
+    }, {
+      "id": "0af361a0-a73b-4770-90d2-122f1d90af16",
+      "comment": "",
+      "command": "click",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["name=password", "name"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//form[@id='_frmLogin']/div/div[3]/input", "xpath:idRelative"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9d3dd94e-550e-41d4-94b0-09be4a6e8949",
+      "comment": "",
+      "command": "type",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["name=password", "name"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//form[@id='_frmLogin']/div/div[3]/input", "xpath:idRelative"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": "vjethang1999"
+    }, {
+      "id": "2e4fb8c3-7a8d-4602-a9f0-1e11a1fa10d4",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn_login_submit",
+      "targets": [
+        ["css=.btn_login_submit", "css:finder"],
+        ["xpath=(//a[contains(text(),'Đăng nhập')])[2]", "xpath:link"],
+        ["xpath=//a[@onclick='NCTLoginJWT.login();']", "xpath:attributes"],
+        ["xpath=//form[@id='_frmLogin']/div/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'javascript:;')])[7]", "xpath:href"],
+        ["xpath=//form/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "eee8b04b-c216-4c7c-a740-fa60793c1329",
+    "name": "user true pass fail",
+    "commands": [{
+      "id": "0b48ea48-e095-4e35-9a61-ac40e5051dce",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.nhaccuatui.com/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2305115e-aa4d-4865-b521-4bfb17d3b134",
+      "comment": "",
+      "command": "click",
+      "target": "id=btnShowBoxLogin",
+      "targets": [
+        ["id=btnShowBoxLogin", "id"],
+        ["linkText=Đăng nhập", "linkText"],
+        ["css=#btnShowBoxLogin", "css:finder"],
+        ["xpath=//a[contains(text(),'Đăng nhập')]", "xpath:link"],
+        ["xpath=//a[@id='btnShowBoxLogin']", "xpath:attributes"],
+        ["xpath=//div[@id='user_control']/ul/li/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'javascript:;')])[3]", "xpath:href"],
+        ["xpath=//div[2]/ul/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Đăng nhập')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c27561c0-5cb3-4fc7-a833-ba43bec8f9a3",
+      "comment": "",
+      "command": "click",
+      "target": "id=uname",
+      "targets": [
+        ["id=uname", "id"],
+        ["name=uname", "name"],
+        ["css=#uname", "css:finder"],
+        ["xpath=//input[@id='uname']", "xpath:attributes"],
+        ["xpath=//form[@id='_frmLogin']/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e63b2569-0b37-4289-b13c-11f7bcb8b173",
+      "comment": "",
+      "command": "type",
+      "target": "id=uname",
+      "targets": [
+        ["id=uname", "id"],
+        ["name=uname", "name"],
+        ["css=#uname", "css:finder"],
+        ["xpath=//input[@id='uname']", "xpath:attributes"],
+        ["xpath=//form[@id='_frmLogin']/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "thangpvhe130185"
+    }, {
+      "id": "5fd25438-0c36-4e63-ad19-7133b0611488",
+      "comment": "",
+      "command": "click",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["name=password", "name"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//form[@id='_frmLogin']/div/div[3]/input", "xpath:idRelative"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "159636fc-ebc4-41e7-81fa-857d0ed46392",
+      "comment": "",
+      "command": "type",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["name=password", "name"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//form[@id='_frmLogin']/div/div[3]/input", "xpath:idRelative"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": "vjethang19997"
+    }, {
+      "id": "976ec91c-dc7b-4830-b50c-05d29121df02",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn_login_submit",
+      "targets": [
+        ["css=.btn_login_submit", "css:finder"],
+        ["xpath=(//a[contains(text(),'Đăng nhập')])[2]", "xpath:link"],
+        ["xpath=//a[@onclick='NCTLoginJWT.login();']", "xpath:attributes"],
+        ["xpath=//form[@id='_frmLogin']/div/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'javascript:;')])[7]", "xpath:href"],
+        ["xpath=//form/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "962e9868-9f86-480b-88e1-29c34d2f4af9",
+    "name": "user and pass fail",
+    "commands": [{
+      "id": "4e7e49de-62a8-4a11-b290-6675f63cf5c2",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.nhaccuatui.com/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "153bfe61-15c9-45c8-8919-1f24f93fa9fc",
+      "comment": "",
+      "command": "click",
+      "target": "id=btnShowBoxLogin",
+      "targets": [
+        ["id=btnShowBoxLogin", "id"],
+        ["linkText=Đăng nhập", "linkText"],
+        ["css=#btnShowBoxLogin", "css:finder"],
+        ["xpath=//a[contains(text(),'Đăng nhập')]", "xpath:link"],
+        ["xpath=//a[@id='btnShowBoxLogin']", "xpath:attributes"],
+        ["xpath=//div[@id='user_control']/ul/li/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'javascript:;')])[3]", "xpath:href"],
+        ["xpath=//div[2]/ul/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Đăng nhập')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "2df1c012-f4f8-4c98-8e39-a2eba0b37a49",
+      "comment": "",
+      "command": "click",
+      "target": "id=uname",
+      "targets": [
+        ["id=uname", "id"],
+        ["name=uname", "name"],
+        ["css=#uname", "css:finder"],
+        ["xpath=//input[@id='uname']", "xpath:attributes"],
+        ["xpath=//form[@id='_frmLogin']/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "bca19b28-139a-4af5-bc69-f1057aac9350",
+      "comment": "",
+      "command": "type",
+      "target": "id=uname",
+      "targets": [
+        ["id=uname", "id"],
+        ["name=uname", "name"],
+        ["css=#uname", "css:finder"],
+        ["xpath=//input[@id='uname']", "xpath:attributes"],
+        ["xpath=//form[@id='_frmLogin']/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "thangpvhe130185h"
+    }, {
+      "id": "bb3ac87e-013e-4edc-9ada-18e87edc38ad",
+      "comment": "",
+      "command": "click",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["name=password", "name"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//form[@id='_frmLogin']/div/div[3]/input", "xpath:idRelative"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fec496dc-06fd-4324-a3df-78d32d86310c",
+      "comment": "",
+      "command": "type",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["name=password", "name"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//form[@id='_frmLogin']/div/div[3]/input", "xpath:idRelative"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": "vjethang19998"
+    }, {
+      "id": "74c16463-98f7-4f08-b166-9e945a03c218",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn_login_submit",
+      "targets": [
+        ["css=.btn_login_submit", "css:finder"],
+        ["xpath=(//a[contains(text(),'Đăng nhập')])[2]", "xpath:link"],
+        ["xpath=//a[@onclick='NCTLoginJWT.login();']", "xpath:attributes"],
+        ["xpath=//form[@id='_frmLogin']/div/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'javascript:;')])[7]", "xpath:href"],
+        ["xpath=//form/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "630bf10c-687f-4774-9143-eb15572637e5",
+    "name": "test shopee",
+    "commands": [{
+      "id": "f939f309-f4a9-4d37-8591-823d7667fd7e",
+      "comment": "",
+      "command": "open",
+      "target": "https://shopee.vn/buyer/login?from=https%3A%2F%2Fshopee.vn%2Fuser%2Fpurchase%2F&next=https%3A%2F%2Fshopee.vn%2Fuser%2Fpurchase%2F",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "50611e0e-3409-4f1c-9206-5b5bbb167976",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1936x1056",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e20d84fb-f9b8-436e-bac8-236d0ef29b2e",
+      "comment": "",
+      "command": "click",
+      "target": "name=loginKey",
+      "targets": [
+        ["name=loginKey", "name"],
+        ["css=.\\_3yuoMD > .\\_56AraZ", "css:finder"],
+        ["xpath=//input[@name='loginKey']", "xpath:attributes"],
+        ["xpath=//div[@id='main']/div/div[2]/div/div/form/div/div[2]/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9cdad929-17bb-462b-ac00-5a768fedafc2",
+      "comment": "",
+      "command": "type",
+      "target": "name=loginKey",
+      "targets": [
+        ["name=loginKey", "name"],
+        ["css=.\\_3yuoMD > .\\_56AraZ", "css:finder"],
+        ["xpath=//input[@name='loginKey']", "xpath:attributes"],
+        ["xpath=//div[@id='main']/div/div[2]/div/div/form/div/div[2]/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "0859220184"
+    }, {
+      "id": "fb470b39-74ff-47d8-8cf3-30e5cca53840",
+      "comment": "",
+      "command": "click",
+      "target": "css=.\\_1B7mke",
+      "targets": [
+        ["css=.\\_1B7mke", "css:finder"],
+        ["xpath=//div[@id='main']/div/div[2]/div/div/form/div/div[2]", "xpath:idRelative"],
+        ["xpath=//form/div/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "38d2e6d8-e903-4319-a596-2b808c740d67",
+      "comment": "",
+      "command": "click",
+      "target": "name=password",
+      "targets": [
+        ["name=password", "name"],
+        ["css=.\\_3yuoMD > .\\_56AraZ", "css:finder"],
+        ["xpath=//input[@name='password']", "xpath:attributes"],
+        ["xpath=//div[@id='main']/div/div[2]/div/div/form/div/div[2]/div[3]/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e7d58441-d509-4a7c-a7a6-992864067630",
+      "comment": "",
+      "command": "type",
+      "target": "name=password",
+      "targets": [
+        ["name=password", "name"],
+        ["css=.\\_3yuoMD > .\\_56AraZ", "css:finder"],
+        ["xpath=//input[@name='password']", "xpath:attributes"],
+        ["xpath=//div[@id='main']/div/div[2]/div/div/form/div/div[2]/div[3]/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/input", "xpath:position"]
+      ],
+      "value": "Vjethang12"
+    }, {
+      "id": "c70b97ea-c879-410f-886c-0c351f80847c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.\\_1ShBrl",
+      "targets": [
+        ["css=.\\_1ShBrl", "css:finder"],
+        ["xpath=//div[@id='main']/div/div[2]/div/div/form/div/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[2]/button", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "df6f7366-5b6a-4015-9150-2ae057a6e6eb",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["96a70a69-b2af-4459-8925-711a31d11a03"]
+  }],
+  "urls": ["https://www.nhaccuatui.com/", "https://shopee.vn/buyer/login?from=https%3A%2F%2Fshopee.vn%2Fuser%2Faccount%2Fpassword&next=https%3A%2F%2Fshopee.vn%2Fuser%2Faccount%2Fpassword"],
+  "plugins": []
+}
